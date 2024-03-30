@@ -9,7 +9,7 @@
 </head>
 <body>
     <div>
-        <h2>this is login form</h2>
+        <h2 class="text-5xl text-gray-600">this is login form</h2>
     </div>
 </body>
 </html>
