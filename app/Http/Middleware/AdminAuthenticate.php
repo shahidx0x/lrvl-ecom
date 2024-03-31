@@ -16,6 +16,7 @@ class AdminAuthenticate
      */
     public function handle(Request $request, Closure $next): Response
     {
+        print 'something';
         if (Auth::user()->usertype == 2) {
             return $next($request);
         }

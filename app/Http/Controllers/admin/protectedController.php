@@ -9,6 +9,6 @@ class protectedController extends Controller
 {
     public function index()
     {
-        return view('admin.protected');
+        return view('admin.dashbord');
     }
 }
